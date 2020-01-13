@@ -3,8 +3,8 @@
 #include <stdint.h>
 #include <utility>
 #include <limits>
-#include "Core/Defines.h"
-#include "Math/Math.h"
+#include "Salvation_Common/Core/Defines.h"
+#include "Salvation_Common/Math/Math.h"
 
 #define VALIDATE_HANDLES _DEBUG
 

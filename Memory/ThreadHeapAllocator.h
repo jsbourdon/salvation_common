@@ -1,7 +1,7 @@
 #pragma once
 
 #include <stdint.h>
-#include "Memory/Memory.h"
+#include "Salvation_Common/Memory/Memory.h"
 
 namespace salvation
 {
