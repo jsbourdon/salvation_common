@@ -20,7 +20,7 @@ namespace salvation
 
         private:
 
-            static constexpr size_t MARKER = 0xDEADBEEFBADDEED1;
+            static constexpr size_t MARKER = size_t(0xDEADBEEFBADDEED1);
 
             struct alignas(sizeof(size_t)) VMHeader
             {
