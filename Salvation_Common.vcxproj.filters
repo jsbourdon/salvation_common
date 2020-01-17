@@ -46,6 +46,9 @@
     <Filter Include="Source Files\SystemInfo\Implementations\Windows">
       <UniqueIdentifier>{46203968-16a2-4a81-ae8b-f588afdd923c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Assets">
+      <UniqueIdentifier>{2c09e6b8-9ffc-491c-b627-387719c2ade3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -92,6 +95,18 @@
     </ClInclude>
     <ClInclude Include="SystemInfo\SystemInfo.h">
       <Filter>Source Files\SystemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Buffer.h">
+      <Filter>Source Files\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Texture.h">
+      <Filter>Source Files\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Mesh.h">
+      <Filter>Source Files\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Material.h">
+      <Filter>Source Files\Assets</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
