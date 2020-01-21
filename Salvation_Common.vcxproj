@@ -186,6 +186,7 @@
     <ClInclude Include="Memory\Memory.h" />
     <ClInclude Include="Memory\RingBuffer.h" />
     <ClInclude Include="Memory\ThreadHeapAllocator.h" />
+    <ClInclude Include="Memory\ThreadHeapSmartPointer.h" />
     <ClInclude Include="Memory\VirtualMemoryAllocator.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="SystemInfo\SystemInfo.h" />
