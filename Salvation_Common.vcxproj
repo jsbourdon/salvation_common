@@ -171,6 +171,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Assets\AssetDatabase.h" />
     <ClInclude Include="Assets\Buffer.h" />
     <ClInclude Include="Assets\Material.h" />
     <ClInclude Include="Assets\Mesh.h" />
@@ -179,6 +180,7 @@
     <ClInclude Include="Core\Globals.h" />
     <ClInclude Include="DataStructures\IndexFreeList.h" />
     <ClInclude Include="DataStructures\PackedArray.h" />
+    <ClInclude Include="FileSystem\FileSystem.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Handle\Handle.h" />
     <ClInclude Include="Math\Math.h" />
@@ -194,6 +196,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructures\IndexFreeList.cpp" />
+    <ClCompile Include="FileSystem\FileSystem.cpp" />
     <ClCompile Include="Memory\FrameMemoryAllocator.cpp" />
     <ClCompile Include="Memory\Memory.cpp" />
     <ClCompile Include="Memory\RingBuffer.cpp" />
