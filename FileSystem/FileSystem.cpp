@@ -74,3 +74,18 @@ str_smart_ptr&& salvation::filesystem::ExtractDirectoryPath(const char* pFilePat
 
     return std::move(dirPath);
 }
+
+str_smart_ptr&& salvation::filesystem::AppendPaths(const char *pDirectoryPath, const char *pFilePath)
+{
+    size_t dirPathLen = strlen(pDirectoryPath);
+    size_t filePathLen = strlen(pFilePath);
+
+    size_t destFilePathLen = dirPathLen + filePathLen;
+    str_smart_ptr destFilePath = ThreadHeapAllocator::Allocate(destFilePathLen);
+    
+    destFilePath[destFilePathLen] = 0;
+    memcpy(destFilePath, pDirectoryPath, dirPathLen);
+    memcpy(destFilePath + dirPathLen, pFilePath, filePathLen);
+
+    return std::move(destFilePath);
+}

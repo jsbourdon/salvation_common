@@ -12,6 +12,7 @@ namespace salvation
         bool DirectoryExists(const char *pDirectoryPath);
         bool CreateDirectory(const char* pDirectoryPath);
 
-        str_smart_ptr&& ExtractDirectoryPath(const char* pFilePath);
+        str_smart_ptr&& ExtractDirectoryPath(const char *pFilePath);
+        str_smart_ptr &&AppendPaths(const char *pDirectoryPath, const char *pFilePath);
     }
 }
