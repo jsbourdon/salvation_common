@@ -195,6 +195,7 @@
     <ClInclude Include="Threading\WorkerThread.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Assets\AssetDatabase.cpp" />
     <ClCompile Include="DataStructures\IndexFreeList.cpp" />
     <ClCompile Include="FileSystem\FileSystem.cpp" />
     <ClCompile Include="Memory\FrameMemoryAllocator.cpp" />

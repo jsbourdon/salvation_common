@@ -149,6 +149,9 @@
     <ClCompile Include="FileSystem\FileSystem.cpp">
       <Filter>FileSystem</Filter>
     </ClCompile>
+    <ClCompile Include="Assets\AssetDatabase.cpp">
+      <Filter>Source Files\Assets</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Memory\Implementations\Windows\VirtualMemoryAllocator.inl">

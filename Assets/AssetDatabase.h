@@ -22,9 +22,39 @@ namespace salvation
             Count
         };
 
+        enum class ComponentType
+        {
+            Unknown = -1,
+            Scalar_Float,
+            Scalar_Byte,
+            Scalar_Short,
+            Scalar_Int,
+            Vec2,
+            Vec3,
+            Vec4,
+            Matrix2x2,
+            Matrix3x3,
+            Matrix4x4,
+            Count
+        };
+
+        enum class AttributeSemantic
+        {
+            Unknown = -1,
+            Position,
+            Normal,
+            Tangent,
+            TexCoord0,
+            TexCoord1,
+            Color,
+            Count
+        };
+
         class AssetDatabase
         {
+        public:
 
+            static uint32_t ComponentTypeByteSize(ComponentType type);
         };
     }
 }
