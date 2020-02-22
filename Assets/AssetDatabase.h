@@ -54,6 +54,11 @@ namespace salvation
         {
         public:
 
+            AssetDatabase();
+            ~AssetDatabase();
+
+            bool LoadMetadata(const char *pFilePath);
+
             static uint32_t ComponentTypeByteSize(ComponentType type);
         };
     }

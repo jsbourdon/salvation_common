@@ -24,3 +24,18 @@ uint32_t AssetDatabase::ComponentTypeByteSize(ComponentType type)
     SALVATION_ASSERT(static_cast<int32_t>(type) >= 0 && static_cast<int32_t>(type) < static_cast<int32_t>(ComponentType::Count), "");
     return static_cast<uint32_t>(s_ComponentTypeByteSizes[static_cast<size_t>(type)]);
 }
+
+AssetDatabase::AssetDatabase()
+{
+
+}
+
+AssetDatabase::~AssetDatabase()
+{
+
+}
+
+bool AssetDatabase::LoadMetadata(const char *pFilePath)
+{
+    return false;
+}
